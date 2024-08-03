@@ -1,31 +1,65 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: right;
-  
-  }
-  
-  li a {
-    display:block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-  .logo{
-    float: left;
-    margin: top -30px;
-  }
-  .pages {
-    margin-top: 30px;
-  }
+#header {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+#navbar {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+}
+#navbar li {
+  display: inline;
+  padding: 10px 40px;
+  list-style: none;
+}
+#navbar li a {
+  text-decoration: none;
+
+}
+#navbar li a:hover {
+  color:black
+}
+.search-input {
+  border: none;
+  width: 100%;
+  background:#E4E6E3;
+  border-radius: 5px;
+  margin-left: 3px;
+}
+.searchbar{
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  width: 100%;
+  height: 15%;
+  background:#E4E6E3 ;
+  max-width: 500px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.searchbutton{
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+.navigation {
+  background-color: #E4E6E3;
+  border-radius: 30px;
+  margin-right: 30px;
+}
+#carousel {
+  background-image: url('../../assets/Carousel.png');
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    align-content: center;
+    padding:0px 1000px;
+    background-position: 10px;
+}
+
