@@ -53,13 +53,3 @@
   border-radius: 30px;
   margin-right: 30px;
 }
-#carousel {
-  background-image: url('../../assets/Carousel.png');
-    height: 80vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    align-content: center;
-    padding:0px 1000px;
-    background-position: 10px;
-}
-

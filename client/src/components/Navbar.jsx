@@ -4,6 +4,7 @@ import logo from "../assets/logo.png";
 import cart from "../assets/cart.png";
 import vector from "../assets/Vector.png";
 import profile from "../assets/profile.png";
+
 export default function Navbar() {
   return (
     <>
@@ -37,32 +38,7 @@ export default function Navbar() {
           </ul>
         </div>
       </section>
-      <section id="carousel">
-        <h2>
-          Delightful strawberries
-        </h2>
-        <h2>
-          20% Off
-        </h2>
-        <h1>
-        <a href="BUY NOW">BUY NOW</a>
-        </h1>
-      </section>
-      <section>
-        <h1>
-          Organic Delights
-        </h1>
-        <div className="my_card">
-          <div className="card">
-            <img src=""/>
-            <h2>onions</h2>
-            <h6>(Rs.30/kg)</h6>
-            
-
-          </div>
-
-        </div>
-      </section>
+      
     </>
   );
 }

@@ -1,0 +1,46 @@
+#card_design{
+    color:#7A601D;
+    display: flex;
+   }
+   .organicDelights{
+    padding: 0px 55px;
+    color:#7A601D;
+   }
+   .my_card{
+    background-color: #F0F2EF;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 58px;
+    justify-content: center;
+    text-align: left;
+   }
+   .my_card:hover{
+    box-shadow: 0 8px 16px 0
+    rgba(0, 20, 5, 8)
+   }
+.ratings li{
+    list-style: none;
+    display: inline;
+    }
+.quantity li{
+    list-style: none;
+    display: inline-block;
+    background-color: #5C5346;
+    border-radius: 12px;
+    margin-left: 5px;
+    padding: 3px 6px;
+    color: #F0F2EF;
+    }
+.buynow li {
+    list-style: none;
+    display: inline-block;
+    background-color: #AFD5AA;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    margin-right: 5px;
+}
+.onion{
+    list-style: none;
+}
