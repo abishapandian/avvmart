@@ -1,69 +1,38 @@
-import React from 'react'
+import React from "react";
 import "./style/card.css";
-import onions from "../assets/onions.png";
 import star from "../assets/Star.png";
-import potatos from "../assets/potatos.png";
-import tomatos from "../assets/tomatos.png";
-import carrots from "../assets/carrots.png";
-export default function Card() {
+export default function Card({isCarddata}) {
   return (
     <>
-    <h1 class="organicDelights">
-            Organic Delights
-        </h1>
-    <section id="card_design">
-        
-    <div class="my_card">
-        <div class="card">
-          <img src={potatos}/>
-          <h2>onions</h2>
-          <h5>(Rs.30/kg)</h5>
-          <div class="ratings">
-            <ul>
-              <li>
-                <img src={star}/>
-              </li>
-              <li>
-                <img src={star} />
-              </li>
-              <li>
-                <img src={star} />
-              </li>
-              <li>
-                <img src={star}/>
-              </li> 
-              <li>
-                <img src={star} />
-              </li>
-              <li>
-                    (30)
-              </li>
-            </ul>
-          </div>
-          <div class="quantity">
-            <ul>
-                <li>
-                    1kg
-                </li>
-                <li>
-                    0.5kg
-                </li>
-            </ul>
-          </div>
-          <div class="buynow">
-            <ul>
-                <li>
-                    Add to cart
-                </li>
-                <li>
-                    Buy Now
-                </li>
-            </ul>
-          </div>
-        </div>
+      <h1 class="organicDelights">Organic Delights</h1>
+      <section id="card_design">
+        {isCarddata.map((item, index) => (
+          <div class="my_card" key={index}>
+            <img src={item.image} />
+            <h2>{item.productname}</h2>
 
-      </div>
-          </section>
+            <h5>Rs{item.price}</h5>
+            <div class="ratings">
+              <img src={star} />
+              <img src={star} />
+              <img src={star} />
+              <img src={star} />
+              <img src={star} />
+              (30)
+            </div>
+            <div class="quantity">
+              {item.quantity.map((data, index) => (
+                <h5 key={index}>{data}</h5>
+              ))}
+            </div>
+            <div class="buttons">
+              <button>Add to cart</button>
+
+              <button>Buy Now</button>
+            </div>
+          </div>
+        ))}
+      </section>
     </>
-      )
+  );
 }

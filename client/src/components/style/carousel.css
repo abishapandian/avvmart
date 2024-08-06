@@ -6,12 +6,19 @@
   color: black;
 
 }
-.caption{
-  color: white;
-  text-align: center;
+.slide2{
+  position: absolute;
+  bottom: 250px;
+  left: 78%;
+  transform:translateX(-50%);
+  color: black;
+
 }
-.slide img{
-  width:100%;
-  height:auto;
-  object-fit: cover;
+.slide3{
+  position: absolute;
+  bottom: 250px;
+  left: 78%;
+  transform:translateX(-50%);
+  color: #7A601D;
+
 }

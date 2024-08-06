@@ -19,11 +19,11 @@
     box-shadow: 0 8px 16px 0
     rgba(0, 20, 5, 8)
    }
-.ratings li{
+.ratings {
     list-style: none;
     display: inline;
     }
-.quantity li{
+.quantity h5{
     list-style: none;
     display: inline-block;
     background-color: #5C5346;
@@ -32,15 +32,15 @@
     padding: 3px 6px;
     color: #F0F2EF;
     }
-.buynow li {
+.buttons button {
     list-style: none;
     display: inline-block;
     background-color: #AFD5AA;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-left: 5px;
     padding: 10px;
     margin-right: 5px;
+    border: none;
+    color:#7A601D;
 }
-.onion{
-    list-style: none;
-}
+
