@@ -1,7 +1,8 @@
 import React from "react";
 import "./style/card.css";
 import star from "../assets/Star.png";
-export default function Card({isCarddata}) {
+import crop from "../assets/crop.png";
+export default function Card({ isCarddata }) {
   return (
     <>
       <h1 class="organicDelights">Organic Delights</h1>
@@ -32,6 +33,20 @@ export default function Card({isCarddata}) {
             </div>
           </div>
         ))}
+      </section>
+      <section id="description">
+        <div className="content">
+          <p>
+            Discover The Pure Joy of Organic Living with Green Harvest. Our
+            Premium Organic Vegetables are Cultivated with Care, Free from
+            Synthetic Additives. Experience Freshness, Flavour, and a Healthier
+            You. Elevate your Plate, Embrace Vitality. Choose Green Harvest,
+            where Nature Meets Nourishment
+          </p>
+          <div className="crop">
+          <img src={crop}></img>
+        </div>
+        </div>
       </section>
     </>
   );

@@ -1,0 +1,26 @@
+.login{
+    background-color: #7A601D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: column;
+}
+h1 , h3{
+    text-align: center;
+}
+.form {
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 20px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+button{
+    margin-top: 5px;
+}

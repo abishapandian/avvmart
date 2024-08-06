@@ -43,4 +43,24 @@
     border: none;
     color:#7A601D;
 }
-
+#description{
+    color: #7A601D;
+    align-items: center;
+    align-content: center;
+    margin-top: 80px;
+  }
+#description p{
+    text-align: center;
+    align-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.content {
+    display: flex;
+    background: linear-gradient(to right , #AFD5AA,#F0F2EF);
+    padding: 20px;
+}
+.crop {
+    margin-right: 90px;
+    padding: 20px;
+}

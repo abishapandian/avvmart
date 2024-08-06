@@ -3,7 +3,7 @@
   bottom: 250px;
   left: 78%;
   transform:translateX(-50%);
-  color: black;
+  color: #7A601D;
 
 }
 .slide2{
@@ -11,7 +11,7 @@
   bottom: 250px;
   left: 78%;
   transform:translateX(-50%);
-  color: black;
+  color: #7A601D;
 
 }
 .slide3{
@@ -22,3 +22,4 @@
   color: #7A601D;
 
 }
+
