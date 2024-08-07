@@ -1,26 +1,54 @@
+#loginpage{
+    text-align: center;
+    color: #5C5346;
+}
+h1{
+    color: #8BC683;
+
+}
 .login{
-    background-color: #7A601D;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    flex-direction: column;
+    color: #5C5346;
 }
-h1 , h3{
-    text-align: center;
-}
-.form {
-    text-align: center;
-    margin-top: 10px;
-    border-radius: 5px;
+.username input{
+    padding: 10px 60px;
+    background: linear-gradient(
+        to right, #8BC683 ,#F0F2EF
+    );
     border: none;
-    padding: 20px 20px;
-}
-input{
-    padding: 5px;
     border-radius: 5px;
-    margin-top: 5px;
 }
-button{
-    margin-top: 5px;
+.username h2{
+    margin-right: 230px;
+    font-size: medium;
+    font-weight:lighter ;
 }
+.password input{
+    padding: 10px 60px;
+    background: linear-gradient(
+        to right, #8BC683 ,#F0F2EF
+    );
+    border: none;
+    border-radius: 5px;
+}
+.password h2{
+    margin-right: 230px;
+    font-size: medium;
+    font-weight:lighter ;
+}
+
+.button{
+    padding: 20px;
+}
+.button button{
+    padding: 10px 128px;
+    background:linear-gradient(to right,#8BC683,#F0F2EF);
+    border: none;
+    border-radius: 5px;
+}
+.forgotpassword h2{
+    display: inline;
+    font-weight: 100;
+    font-size: medium;
+    padding: 35px;
+}
+
